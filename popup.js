@@ -12,7 +12,7 @@ document.getElementById("sendRequest").addEventListener("click", async () => {
 
       const result = await response.json();
       console.log("API Response:", result);
-      document.getElementById("response").innerText = JSON.stringify(result, null, 2);
+      document.getElementById("response").innerText = JSON.stringify(result);
    } catch (error) {
       console.error("Error", error);
    }
