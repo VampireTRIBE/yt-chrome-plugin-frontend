@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
    const outputDiv = document.getElementById("output");
-   const API_KEY = 'AIzaSyDZodJ_VBRQsrmf7GxZiePal1Gchx_CbZw';
+   const API_KEY = 'API';
    const API_URL = 'http://localhost:5000/predict'; // Your API endpoint
  
    // Get the current tab's URL
